@@ -1,12 +1,43 @@
 :root {
+  --primary-color: #f4fcf9;
+  --secondary-color: #504658;
+  --accent-color: #f38181;
 }
-
-h1 {
+.navbar-custom {
+  background-color: var(--accent-color);
+}
+.hero {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  width: 1440px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+}
+.hero h1 {
   font-family: "Crimson Text", serif;
   font-weight: 800;
+  font-size: 96px;
+  text-align: center;
 }
-h2,
+.hero h2,
 h3,
 p {
   font-family: "Mada", sans-serif;
+  text-align: center;
+}
+h2 {
+  padding: 300px 0 0;
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
 }
