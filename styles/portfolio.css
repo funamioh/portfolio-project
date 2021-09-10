@@ -2,6 +2,7 @@
   --primary-color: #f4fcf9;
   --secondary-color: #504658;
   --accent-color: #f38181;
+  --box-shadow: ;
 }
 .navbar-custom {
   background-color: var(--accent-color);
@@ -18,7 +19,7 @@
     #020f75 100%
   );
   width: 1440px;
-  height: 900px;
+  height: 650px;
   left: 0px;
   top: 0px;
 }
@@ -34,10 +35,36 @@ p {
   font-family: "Mada", sans-serif;
   text-align: center;
 }
-h2 {
-  padding: 300px 0 0;
+.hero h2 {
+  padding: 200px 0 0;
   font-size: 36px;
+}
+h2 {
+  font-size: 4rem;
 }
 h3 {
   font-size: 24px;
+}
+button {
+  background-color: #c8699e;
+  padding: 16px 34px;
+  border: #d34894;
+  border-radius: 8px;
+  font-size: 22px;
+}
+
+.projects-intro {
+  font-size: 25px;
+  padding: 33px;
+}
+.app-description {
+  font-size: 18px;
+  text-align: left;
+}
+.skills-used {
+  text-align: right;
+}
+.fab {
+  font-size: 35px;
+  margin: 3px;
 }
