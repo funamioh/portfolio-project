@@ -1,7 +1,7 @@
 :root {
   --primary-color: #f4fcf9;
   --secondary-color: #504658;
-  --accent-color: #f38181;
+  --accent-color: #f568b5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .navbar-custom {
@@ -10,13 +10,19 @@
 }
 .navbar-light .navbar-brand {
   color: var(--primary-color);
+  font-family: "Mada", sans-serif;
 }
 .navbar-light .navbar-nav .nav-link {
   color: var(--primary-color);
+  font-family: "Mada", sans-serif;
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
+  font-family: "Mada", sans-serif;
   color: var(--primary-color);
+}
+.navbar-brand .nav-link .active:hover {
+  color: var(--accent-color);
 }
 .hero {
   background-image: linear-gradient(
@@ -35,8 +41,8 @@
   top: 0px;
 }
 .hero h1 {
-  font-family: "Kaisei HarunoUmi", serif;
-  font-weight: 400;
+  font-family: "Neue Helvetica", sans-serif;
+  font-weight: 500;
   font-size: 96px;
   text-align: center;
 }
@@ -50,7 +56,11 @@ p {
   padding: 200px 0 0;
   font-size: 36px;
 }
+.contact-me {
+  text-align: middle;
+}
 h2 {
+  font-family: "Neue Helvetica", sans-serif;
   font-size: 4rem;
 }
 h3 {
