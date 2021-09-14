@@ -3,6 +3,8 @@
   --secondary-color: #504658;
   --accent-color: #f568b5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --title-font: "Neue Helvetica", sans-serif;
+  --sub-font: "Mada", sans-serif;
 }
 .navbar-custom {
   background-color: #000000;
@@ -10,15 +12,15 @@
 }
 .navbar-light .navbar-brand {
   color: var(--primary-color);
-  font-family: "Mada", sans-serif;
+  font-family: var(--sub-font);
 }
 .navbar-light .navbar-nav .nav-link {
   color: var(--primary-color);
-  font-family: "Mada", sans-serif;
+  font-family: var(--sub-font);
 }
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
-  font-family: "Mada", sans-serif;
+  font-family: var(--sub-font);
   color: var(--primary-color);
 }
 .navbar-brand .nav-link .active:hover {
@@ -41,7 +43,7 @@
   top: 0px;
 }
 .hero h1 {
-  font-family: "Neue Helvetica", sans-serif;
+  font-family: var(--title-font);
   font-weight: 500;
   font-size: 96px;
   text-align: center;
@@ -49,7 +51,7 @@
 .hero h2,
 h3,
 p {
-  font-family: "Mada", sans-serif;
+  font-family: var(--sub-font);
   text-align: center;
 }
 .hero h2 {
@@ -59,8 +61,9 @@ p {
 .contact-me {
   text-align: middle;
 }
+
 h2 {
-  font-family: "Neue Helvetica", sans-serif;
+  font-family: var(--title-font);
   font-size: 4rem;
 }
 h3 {
@@ -97,11 +100,33 @@ button {
   color: #0077b5;
 }
 
+.profile-section h1 {
+  font-size: 80px;
+}
+.profile-section p {
+  text-align: left;
+  font-size: 24px;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 48px;
   }
   h2 {
     font-size: 46px;
+  }
+  .profile-section h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .profile-section p {
+    text-align: center;
+  }
+  .profile-section button {
+    display: block;
+    margin: auto;
+  }
+  .profile-pic {
+    margin-top: 30px;
   }
 }
