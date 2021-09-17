@@ -118,6 +118,10 @@ button {
   font-size: 90px;
   padding: 80px 0;
 }
+/*contact page*/
+.content a {
+  text-align: center;
+}
 
 @media (max-width: 576px) {
   .hero h1 {
