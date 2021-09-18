@@ -1,6 +1,7 @@
 :root {
   --primary-color: #f4fcf9;
   --secondary-color: #504658;
+  --backgound-color: #1a23b6;
   --accent-color: #f568b5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --title-font: "Neue Helvetica", sans-serif;
@@ -45,7 +46,7 @@
     #020f75 100%
   );
   width: 100%;
-  height: 650px;
+  height: 400px;
   left: 0px;
   top: 0px;
 }
@@ -64,7 +65,7 @@ p {
   text-align: center;
 }
 .hero h2 {
-  padding: 200px 0 0;
+  padding: 80px 0 0;
   font-size: 36px;
 }
 .contact-me {
@@ -115,6 +116,22 @@ button {
 }
 .profile-section p {
   text-align: left;
+  font-size: 24px;
+}
+.contact-box {
+  margin: 70px;
+  padding: 30px 120px;
+  background-color: var(--backgound-color);
+  border-radius: 4px;
+}
+.contact-box h4 {
+  font-size: 48px;
+}
+.contact-box p {
+  font-size: 20px;
+}
+/*about page*/
+.shecodes-certs p {
   font-size: 24px;
 }
 
