@@ -3,7 +3,6 @@
   --secondary-color: #504658;
   --backgound-color: #1a23b6;
   --accent-color: #f568b5;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --title-font: "Neue Helvetica", sans-serif;
   --sub-font: "Mada", sans-serif;
 }
@@ -50,6 +49,7 @@
   left: 0px;
   top: 0px;
 }
+
 h1 {
   font-family: var(--title-font);
 }
@@ -69,7 +69,12 @@ p {
   font-size: 36px;
 }
 .contact-me {
+  color: var(--primary-color);
   text-align: middle;
+  text-decoration: none;
+}
+.contact-me:hover {
+  color: #000000;
 }
 
 h2 {
@@ -85,7 +90,11 @@ button {
   border: #d34894;
   border-radius: 8px;
   font-size: 22px;
+  color: var(--primary-color);
   box-shadow: var(--box-shadow);
+}
+button:hover {
+  color: #000000;
 }
 
 .projects-intro {
@@ -134,18 +143,52 @@ button {
 .fa-github,
 .fa-twitter-square,
 .fa-linkedin {
-  color: var(--backgound-color);
-  background-color: #9bcdfc;
+  color: var(--primary-color);
+  background-color: var(--backgound-color);
   padding: 10px;
   margin: 0 18px;
   border-radius: 50%;
 }
-/*about page*/
+.fa-github:hover,
+.fa-twitter-square:hover,
+.fa-linkedin:hover {
+  background-color: #c8699e;
+}
+
+/*about page, mywork page*/
+.about-top,
+.mywork-top {
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 0px;
+}
+.about-top h1,
+.mywork-top h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 100px 0 0;
+}
 .shecodes-certs p {
   font-size: 24px;
 }
 
 /*mywork page*/
+.about-top h1 {
+  font-size: 50px;
+  text-align: center;
+  padding: 100px 0 0;
+}
 .content h1 {
   font-size: 90px;
   padding: 80px 0;
