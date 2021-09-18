@@ -113,7 +113,7 @@ button {
   font-size: 24px;
 }
 .contact-box {
-  margin: 70px 0 30px;
+  margin: 70px 0 0;
   padding: 30px 120px;
   background-color: var(--backgound-color);
   border-radius: 4px;
@@ -128,7 +128,7 @@ button {
   font-size: 25px;
   text-decoration: none;
   color: #000000;
-  margin-bottom: 20px;
+  margin: 40px 0 20px;
 }
 
 .fa-github,
