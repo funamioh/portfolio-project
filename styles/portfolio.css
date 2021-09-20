@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #f4fcf9;
+  --primary-color: #ffffff;
   --secondary-color: #504658;
   --backgound-color: #1a23b6;
   --accent-color: #f568b5;
@@ -74,7 +74,7 @@ p {
   text-decoration: none;
 }
 .contact-me:hover {
-  color: #000000;
+  color: #c8699e;
 }
 
 h2 {
@@ -91,10 +91,14 @@ button {
   border-radius: 8px;
   font-size: 22px;
   color: var(--primary-color);
-  box-shadow: var(--box-shadow);
 }
 button:hover {
-  color: #000000;
+  background-color: var(--primary-color);
+  padding: 16px 34px;
+  border: solid 1px#c8699e;
+  border-radius: 8px;
+  font-size: 22px;
+  color: #c8699e;
 }
 
 .projects-intro {
