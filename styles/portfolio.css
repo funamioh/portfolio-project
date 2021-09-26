@@ -134,9 +134,11 @@ h3 {
 }
 .contact-box h4 {
   font-size: 48px;
+  color: var(--primary-color);
 }
 .contact-box p {
   font-size: 20px;
+  color: var(--primary-color);
 }
 .email-link {
   font-size: 25px;
@@ -146,8 +148,8 @@ h3 {
 }
 
 .fa-github,
-.fa-twitter-square,
-.fa-linkedin {
+.fa-twitter,
+.fa-linkedin-in {
   color: var(--primary-color);
   background-color: var(--backgound-color);
   padding: 10px;
@@ -155,8 +157,8 @@ h3 {
   border-radius: 50%;
 }
 .fa-github:hover,
-.fa-twitter-square:hover,
-.fa-linkedin:hover {
+.fa-twitter:hover,
+.fa-linkedin-in:hover {
   background-color: #c8699e;
   transition: 0.3s ease-in;
 }
@@ -179,8 +181,9 @@ h3 {
   left: 0px;
   top: 0px;
 }
-.border-branding {
-  border: ;
+
+.profile-pic img {
+  margin: 40px;
 }
 .about-top h1,
 .mywork-top h1 {
