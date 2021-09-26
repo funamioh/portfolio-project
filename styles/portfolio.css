@@ -52,6 +52,7 @@
 
 h1 {
   font-family: var(--title-font);
+  line-height: 1;
 }
 .hero h1 {
   font-weight: 500;
@@ -84,21 +85,21 @@ h2 {
 h3 {
   font-size: 24px;
 }
-button {
+.btn-branding {
   background-color: #c8699e;
-  padding: 16px 34px;
+  padding: 12px 30px;
   border: #d34894;
   border-radius: 8px;
   font-size: 22px;
   color: var(--primary-color);
 }
-button:hover {
+.btn-branding:hover {
   background-color: var(--primary-color);
-  padding: 16px 34px;
   border: solid 1px#c8699e;
   border-radius: 8px;
   font-size: 22px;
   color: #c8699e;
+  transition: 0.3s ease-in;
 }
 
 .projects-intro {
@@ -157,6 +158,7 @@ button:hover {
 .fa-twitter-square:hover,
 .fa-linkedin:hover {
   background-color: #c8699e;
+  transition: 0.3s ease-in;
 }
 
 /*about page, mywork page*/
@@ -177,6 +179,9 @@ button:hover {
   left: 0px;
   top: 0px;
 }
+.border-branding {
+  border: ;
+}
 .about-top h1,
 .mywork-top h1 {
   font-size: 50px;
@@ -188,15 +193,15 @@ button:hover {
 }
 
 /*mywork page*/
-.about-top h1 {
-  font-size: 50px;
-  text-align: center;
-  padding: 100px 0 0;
-}
 .content h1 {
-  font-size: 90px;
-  padding: 80px 0;
+  font-size: 70px;
+  line-height: 1;
+  padding: 50px 0;
 }
+.container .content .btn-branding {
+  margin: 0 auto;
+}
+
 /*contact page*/
 .content a {
   text-align: center;
